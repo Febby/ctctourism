@@ -542,6 +542,12 @@ mark,
 .tweet_time a{
 	color:#899096;
 }
+
+//back to top - tourism color
+.ctc_to_top-btn {
+  color: #FFFDFB;
+  background-color: rgb(239, 64, 43);
+}
 .dark_hover{
 	&:hover{
 		-webkit-transition:all .5s ease!important;
@@ -2341,42 +2347,49 @@ i[class|="icon"]{
 	line-height: 22px;
 	font-size:12px;
 }
-.icon_wrap_size_2{
-	width:40px;
-	height:40px;
-	line-height: 40px;
-	font-size:23.3px;
+//custom ctc size
+.icon_ctc_size {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 2em;
 }
+//.icon_wrap_size_2{
+//	width:40px;
+//	height:40px;
+//	line-height: 40px;
+//	font-size:23.3px;
+//}
 .icon_wrap_size_3{
 	width:50px;
 	height:50px;
 	line-height: 50px;
 	font-size:23px;
 }
-.icon_wrap_size_4{
-	width:36px;
-	height:36px;
-	line-height: 36px;
-	font-size:20px;
-}
-.icon_wrap_size_5{
-	width:24px;
-	height:24px;
-	line-height: 24px;
-	font-size:13px;
-}
-.icon_wrap_size_6{
-	width:100px;
-	height:100px;
-	line-height: 100px;
-	font-size:40px;
-}
-.icon_wrap_size_7{
-	width:140px;
-	height:140px;
-	line-height: 140px;
-	font-size:53px;
-}
+//.icon_wrap_size_4{
+//	width:36px;
+//	height:36px;
+//	line-height: 36px;
+//	font-size:20px;
+//}
+//.icon_wrap_size_5{
+//	width:24px;
+//	height:24px;
+//	line-height: 24px;
+//	font-size:13px;
+//}
+//.icon_wrap_size_6{
+//	width:100px;
+//	height:100px;
+//	line-height: 100px;
+//	font-size:40px;
+//}
+//.icon_wrap_size_7{
+//	width:140px;
+//	height:140px;
+//	line-height: 140px;
+//	font-size:53px;
+//}
 .main_menu > li [class|="icon"]{
 	font-size:13px;
 	margin-left:4px;
