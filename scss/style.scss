@@ -899,7 +899,7 @@ body{
 	font:400 16px/1.5em "Lato","sans-serif";
 	color:#606366;
 	// background: #2c2b44;
-	background: url("../images/sydney-mash-up4.jpg") no-repeat;
+	background: url("../images/mash-up-australia.jpg") no-repeat;
 	background-size: cover;
 	background-position:center center;
 	overflow-x:hidden;
@@ -1416,6 +1416,12 @@ doesnotexist:-o-prefocus, .main_menu li:hover > .sub_menu,.dropdown:hover .sub_m
 	7. Tabs,Accordions,Toggles
 
 ------------------------------------- */
+
+//custom tabs bg color
+.tabs_nav .active a, .owl-pagination>.active, .bg_color_blue_hover:hover, .p_table.bg_color_blue_hover.active, [class*="icon_wrap_"].animation_fill.color_scheme:before {
+  background: #FFC20D!important;
+border-color: white!important;
+}
 
 .tabs_nav li:first-child a{
 	-webkit-border-radius:4px 0 0 4px;
