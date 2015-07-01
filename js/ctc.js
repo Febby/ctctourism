@@ -2,8 +2,8 @@
             $(document).ready(function() {
             $('html').show();
             $("body").queryLoader2({
-            backgroundColor: '#fff',
-            barColor: '#056972',
+		    barColor: "#fff",
+            backgroundColor: "#FEC00C",
             barHeight: 4,
             percentage: true,
             deepSearch: true,

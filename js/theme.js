@@ -21,11 +21,11 @@
 				this.events.dropdownsOnTouch();
 				this.sliders();
 				this.plugins();
-				this.events.newsLetter();
-				this.events.contactForm();
-				this.events.shoppingCart();
-				this.events.selectButtons();
-				this.events.ratingList();
+//				this.events.newsLetter();
+//				this.events.contactForm();
+//				this.events.shoppingCart();
+//				this.events.selectButtons();
+//				this.events.ratingList();
 				this.events.alertBoxes();
 				this.events.categories();
 				this.events.layoutChangeIsotope();
