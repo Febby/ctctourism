@@ -911,6 +911,17 @@ body{
 	overflow-x:hidden;
 	background-attachment: fixed;
 }
+body:after {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-color: rgba(0,0,0,0.3);
+}
 .tr_delay,
 a:not([class*="tr_all"]){
 	-webkit-transition:color 1.1s ease,background-color 1.1s ease,border-color 1.1s ease;
@@ -4441,12 +4452,11 @@ and (min-width : 1824px) {
 }
 @media only screen and (max-width:767px){
 	/* scheme color */
-	// body{
-	// background: url("../images/m-bg.jpg") no-repeat;
-	// background-size: cover;
-	// background-attachment: fixed;
-	// background-position:center center;
-	// }
+	 body{
+	 background: orange;
+	 
+	 }
+	.ctc-section{display:none;}
 	.tabs_nav .active a{
 		border-right-color:#41bedd !important;
 	}
