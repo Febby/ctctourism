@@ -764,7 +764,7 @@ input:not([type="submit"]).error,
 }
 .color_yellow,
 [class*="button_type_"].color_yellow:not(.transparent):hover{
-	color:white;
+	color: #E3A316;
 }
 .color_light_green{
 	color:#27ae60;
@@ -779,7 +779,7 @@ input:not([type="submit"]).error,
 .p_table.bg_color_yellow_hover.active,
 [class*="button_type_"].color_yellow:not(.transparent),
 [class*="button_type_"].color_yellow.transparent:hover{
-	background:#f1c40f;	
+	background:#E5B52A;	
 }
 .color_dark_blue{
 	color:#3498db;
@@ -1973,7 +1973,7 @@ top: -20px;
 }
 [class*="button_type"]:not(.transparent):hover,
 [class*="select_button_"]:hover,.checkout_video:hover .video_button{
-	background:#fec00c;
+	background:white;
 }
 .popup_buttons{
 	position:absolute;
