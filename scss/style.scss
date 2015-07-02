@@ -764,7 +764,7 @@ input:not([type="submit"]).error,
 }
 .color_yellow,
 [class*="button_type_"].color_yellow:not(.transparent):hover{
-	color:#f1c40f;
+	color:white;
 }
 .color_light_green{
 	color:#27ae60;
@@ -1973,7 +1973,7 @@ top: -20px;
 }
 [class*="button_type"]:not(.transparent):hover,
 [class*="select_button_"]:hover,.checkout_video:hover .video_button{
-	background:transparent;
+	background:#fec00c;
 }
 .popup_buttons{
 	position:absolute;
